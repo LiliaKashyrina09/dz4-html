@@ -1,5 +1,6 @@
 .cookie-popup
     display: flex
+    width: 705px
     padding: 32px 21px
     flex-direction: column
     align-items: flex-start
@@ -7,37 +8,42 @@
     border-radius: 12px
     border: 2px solid var(--error-default-weak, #FF75CB)
     background: var(--error-background, #FFECFC)
+    
 
 .cookie-title
     color: var(--grayscale-header, #14142B)
     font-feature-settings: 'clig' off, 'liga' off
     font-weight: 600
+    font-size: 24px
     line-height: 32px // 133.333%
     letter-spacing: 0.75px
-    width: 705px
+    margin: 0 
 
 .cookie-description
     width: 695px
     color: var(--grayscale-header, #14142B)
     font-feature-settings: 'clig' off, 'liga' off
     font-weight: 400
+    font-size: 18px
     line-height: 34px // 188.889%
     letter-spacing: 0.75px
+    margin-top: 10px 
 
 .cookie-button
     display: flex
     height: 55px
-    padding: 18px 32px
+    padding: 0 32px 
     justify-content: center
     align-items: center
     gap: 16px
     border-radius: 12px
-    background: #005BD4
+    background: var(--secondary-default, #005BD4)
     color: #FFF
     border: none
     cursor: pointer
     font-style: normal
     font-weight: 600
+    font-size: 16px
     line-height: 28px // 175%
     letter-spacing: 0.75px
     &:hover
