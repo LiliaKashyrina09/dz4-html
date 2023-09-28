@@ -1,17 +1,15 @@
 .cookie-popup
-    width: 750px
-    height: 252px
-    position: absolute
-    right: 0
-    bottom: 0
-    border-radius: 12px
-    border: 2px solid #FF75CB
-    background: #FFEDFD
-    padding: 40px
-
-.cookie-container
-    display: flex
+    display: inline-flex
+    padding: 32px 21px
     flex-direction: column
+    align-items: flex-start
+    gap: 11px
+    position: absolute
+    left: 4601px
+    top: 3675px
+    border-radius: 12px
+    border: 2px solid var(--error-default-weak, #FF75CB)
+    background: var(--error-background, #FFECFC)
 
 .cookie-title
     font-size: 24px
@@ -21,16 +19,20 @@
 .cookie-description
     font-size: 18px
     color: #555
-    text-align: center
+    text-align: left
     margin-bottom: 30px
 
 .cookie-button
-    font-size: 18px
-    padding: 15px 30px
-    border: none
-    border-radius: 4px
-    cursor: pointer
-    background-color: #FF75CB
+    display: flex
+    height: 55px
+    padding: 18px 32px
+    justify-content: center
+    align-items: center
+    gap: 16px
+    border-radius: 12px
+    background: var(--secondary-default, #005BD4)
     color: #FFF
+    border: none
+    cursor: pointer
     &:hover
-        background-color: darken(#FF75CB, 10%)
+        background-color: darken(var(--secondary-default, #005BD4), 10%)
