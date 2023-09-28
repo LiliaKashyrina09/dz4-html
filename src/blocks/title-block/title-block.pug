@@ -1,0 +1,15 @@
+.title-block
+    .title-block__widgets        
+        .currency-widget.widget-style
+          span $USD exchange rate = 
+          span.currency-widget-eur EUR €0.92 
+          span.currency-widget-uah UAH ₴36.90
+        .subscribe-widget.widget-style
+          .subscribe-widget__title Join our mailing list
+          .subscribe-widget__description Get the latest important news right into your inbox
+          form.subscribe-widget__form(action="/form-url" method="post")
+            .input-container
+              input.subscribe-widget__input(type="email" placeholder="Email Address")
+            button.subscribe-widget__button(type="submit")
+    .title-block__visual
+      lottie-player(src="https://lottie.host/488883c8-f92c-45a7-ab8a-7bb0b3ea497a/j1nHCJPSui.json" background speed="2" direction="1" mode="normal" loop autoplay)
