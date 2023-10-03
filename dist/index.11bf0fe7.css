@@ -299,9 +299,9 @@
   width: 705px;
   padding: 32px 21px;
   display: flex;
-  position: fixed;
-  bottom: 120px;
-  left: 48%;
+  position: relative;
+  bottom: 235px;
+  left: 43%;
 }
 
 .cookie-title {
@@ -361,6 +361,11 @@
   line-height: 28px;
 }
 
+.footer {
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -370,6 +375,7 @@ body {
 
 .container {
   width: 1344px;
+  height: 2400px;
   margin: 0 auto;
 }
 
